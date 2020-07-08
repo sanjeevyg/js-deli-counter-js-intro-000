@@ -8,7 +8,7 @@ function nowServing(line) {
   if (!line.length) {
     return  "There is nobody waiting to be served!"
   } else {
-    console.log(line.shift())
+    return line.shift()
   }
 }
 
