@@ -16,7 +16,7 @@ function currentLine(line) {
   let array = [];
   for (let i = 0; i < line.length; i++) {
   if (!line.length) {
-    "The line is currently empty."
+    return "The line is currently empty."
   } else {
     array.push(`${parseInt(i) + 1}. ${line[i]}`)
   }
