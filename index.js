@@ -14,10 +14,10 @@ function nowServing(line) {
 
 function currentLine(line) {
   let array = [];
-  for (let i = 0; i < line.length; i++) {
   if (!line.length) {
     return "The line is currently empty."
   } else {
+  for (let i = 0; i < line.length; i++) {
     array.push(`${parseInt(i) + 1}. ${line[i]}`)
   }
 }
