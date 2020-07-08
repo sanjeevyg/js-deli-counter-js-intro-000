@@ -13,7 +13,7 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  array = []
+  let array = []
   for (let i = 0; i < line.length; i++) {
   if (!line.length) {
     "The line is currently empty."
